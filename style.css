@@ -1,0 +1,88 @@
+body {
+    color: white;
+    background-color: black;
+ font-family: Arial, Helvetica, sans-serif;
+ 
+ 
+ 
+ }
+ 
+ ul {
+    display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        align-items: flex-start;
+        padding: 16px;
+        flex-direction: column;
+}
+ 
+ .cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: flex-start;
+    padding: 16px;
+    flex-direction: row;
+ }
+ 
+ a {
+    color: white;
+    text-decoration: none;
+ }
+ 
+ header img {
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     border: 5px solid orangered;
+ }
+ 
+ .center {
+ text-align: center;
+ }
+ 
+ h1 {
+     color: orangered;
+ }
+ 
+ footer img {
+ width: 40px;
+ height: 40px;
+ }
+ 
+ footer {
+    display: flex;
+    justify-content: center;
+ }
+ .instagram,.linkedin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+ }
+ footer a {
+    margin: 20px;
+ text-align: center;
+ }
+ 
+ footer p {
+     margin-top: 2px;
+ }
+ 
+ .container {
+     padding: 0px 50px;
+ }
+ 
+ nav a:hover {
+ color: orangered;
+ }
+
+ .topo {
+
+   background-size: 100% auto;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 100px;
+   
+   background-image: url('./assets/topo.jpg');
+ }
